@@ -175,6 +175,8 @@ a {
   fill: #afb1b8;
   margin-right: 10px;
   cursor: pointer;
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
 }
 .icon-work:hover {
   fill: #03a9f4;
@@ -230,9 +232,14 @@ a {
 }
 .team-social{
   display: flex;
+  padding: 0;
 }
 .team-social li{
   list-style: none;
+  margin-right: 10px;
+}
+.team-social li:last-child{
+  margin-right: 0px;
 }
 .card-image {
   max-width: 100%;
@@ -287,11 +294,37 @@ footer a {
 .footer-icon{
   padding-top: 72px;
   display: flex;
-
+  flex-direction: column;
 }
-
+.footer-icon li{
+  list-style: none;
+  margin-right: 10px;
+}
+.footer-icon li:last-child{
+  margin-right: 0;
+}
+.footer-tittle{
+  margin-top: 0;
+  margin-bottom: 20px;
+  ont-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.active-icon{
+  fill:#fff;
+}
+.active-icon:hover{
+  fill:#2196F3;
+  cursor: pointer;
+}
 .kontakt-color {
   color: var(--kontakt-color);
+}
+.icon-foter{
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 .contact {
   list-style: none;
