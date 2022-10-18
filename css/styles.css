@@ -239,9 +239,23 @@ a {
   margin-right: 0;
 }
 .team-social {
-  padding-inline: 16px;
+  padding-inline: 32px;
   display: flex;
   padding-bottom: 30px;
+}
+.icon-social {
+  fill: #afb1b8;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  padding: 12px;
+}
+.icon-social:hover {
+  fill: #ffffff;
+  cursor: pointer;
+  background-color: var(--brand-color);
+  border-radius: 30px;
 }
 .team-social li {
   list-style: none;
@@ -250,6 +264,7 @@ a {
 .team-social li:last-child {
   margin-right: 0px;
 }
+
 .card-image {
   max-width: 100%;
   height: auto;
@@ -321,13 +336,7 @@ footer a {
   line-height: 16px;
   text-transform: uppercase;
 }
-.active-icon {
-  fill: #fff;
-}
-.active-icon:hover {
-  fill: #2196f3;
-  cursor: pointer;
-}
+
 .kontakt-color {
   color: var(--kontakt-color);
 }
