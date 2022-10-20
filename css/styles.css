@@ -118,14 +118,16 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.button:active {
+.button:hover {
   color: #ffffff;
   background-color: var(--brand-color);
 }
 .work {
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
 }
+
 .section {
   padding-block: 94px;
 }
@@ -156,9 +158,7 @@ a {
 .text p {
   line-height: 1.3;
 }
-.work {
-  background-color: #e5e5e5;
-}
+
 .title-item {
   font-weight: 700;
   font-size: 36px;
@@ -294,7 +294,7 @@ footer a {
   color: #ffffff;
 }
 
-.footer-content {
+footer {
   background-color: #2f303a;
   color: #ffffff;
 }
@@ -399,7 +399,7 @@ footer a {
   width: 121px;
   height: 38px;
 }
-.portfolio-button:active {
+.portfolio-button:hover {
   color: #ffffff;
   background-color: var(--brand-color);
 }
